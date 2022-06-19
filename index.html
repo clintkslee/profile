@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta property="og:title" content="san - profile link">
+        <meta property="og:description" content="clintkslee">
+        <meta property="og:image" content="marcelines">
+        <script type="text/javascript" src="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/free/sparta.js"></script>
+        <title>san's profile</title>
+        <style>
+            @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+            * {
+                font-family: "Pretendard",serif;
+            }
+            body {
+                background-color: #44398a;
+            }
+            .wrap {
+                width: 300px;
+                margin: 30px auto 0px auto;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .profile {
+                width: 100px;
+                height: 100px;
+
+                border-radius: 100%;
+
+                border: 2px solid white;
+
+                background-image: url('marcelines.jpg');
+                background-position:top;
+                background-size: cover;
+            }
+            .main {
+                color: white;
+                font-size: 20px;
+
+                margin-top: 30px;
+                margin-bottom: 10px;
+            }
+            .sub {
+                color: white;
+                font-size: 14px;
+
+                margin-top: 0px;
+                margin-bottom: 30px;
+            }
+            
+            .wrap > a {
+                width: 300px;
+                height: 50px;
+
+                background-color: white;
+                border-radius: 8px;
+                margin-bottom: 10px;
+
+                font-size: 14px;
+                font-weight: bold;
+                color: #44398a;
+                text-decoration:none;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                box-shadow: 3px 3px 5px 0px black;
+                
+            }
+            .wrap > a:hover {
+                background-color: #f2f2f2;
+                font-size: 15px;
+            }
+        </style>
+    </head> 
+    <body>
+        <div class="wrap">
+            <div class="profile"></div>
+            <h1 class="main">san</h1>
+            <p class="sub">clintkslee</p>
+            <a target="_blank" href="https://github.com/clintkslee">Github</a>
+            <a target="_blank" href="https://www.youtube.com/watch?v=fF5B1ZH2y7E&list=PLpAzdbG1bjc4m83IfqnDpY-2l8ocYI1C1&index=1">Music</a>
+        </div>
+    </body>
+</html>
